@@ -20,7 +20,7 @@ import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract MyToken is ERC20 {
     uint256 public constant INITIAL_SUPPLY = 1_000_000 * 1 ether;
     uint256 public constant BURN_PERCENTAGE = 1; // 1%
-    address public constant BURN_ADDRESS = 0xDeaDbeefdEAdbeefdEadbEEFdeadbeEFdEaDbeeF; 
+    address public constant BURN_ADDRESS = 0x1910C801Ea87E41Faf2aeBfB430EEEa2Fb6efFE5; 
 
     constructor() ERC20("MyToken", "MT"){
         _mint(msg.sender, INITIAL_SUPPLY);
