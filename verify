@@ -1,0 +1,12 @@
+forge verify-contract 0x53E365fE5fDF332dD475E90bA8383B7F9853a49F src/MyToken.sol:MyToken --verifier-url 'https://berascan.com/api' --etherscan-api-key "verifyContract" --num-of-optimizations 200
+
+# [Expected Output]:
+# Start verifying contract `0x1910C801Ea87E41Faf2aeBfB430EEEa2Fb6efFE5` deployed on mainnet
+#
+# Submitting verification for [src/MyToken.sol:MyToken] 0x1910C801Ea87E41Faf2aeBfB430EEEa2Fb6efFE5.
+# Submitted contract for verification:
+# Response: `OK`
+# GUID: `321091ec-e529-5a11-a75c-cf1ffc6987d7`
+# URL: https://etherscan.io/address/0x1910C801Ea87E41Faf2aeBfB430EEEa2Fb6efFE5
+#
+# !NOTE: Should be https://berascan.com//address/0x1910C801Ea87E41Faf2aeBfB430EEEa2Fb6efFE
